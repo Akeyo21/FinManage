@@ -30,6 +30,9 @@ let theme = createTheme({
     text: {
       primary: "white",
     },
+    background: {
+      paper: "rgba(78, 74, 74, 1)",
+    },
   },
   typography: {
     allVariants: {
