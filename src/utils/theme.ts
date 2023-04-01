@@ -26,20 +26,16 @@ declare module "@mui/material/Typography" {
 }
 
 let theme = createTheme({
+  palette: {
+    text: {
+      primary: "white",
+    },
+  },
   typography: {
     allVariants: {
       color: "white",
     },
     fontFamily: ptSerif.style.fontFamily,
-    // body1: {
-    //   fontFamily: ptSerif.style.fontFamily,
-    // },
-    // primary: {
-    //   fontFamily: ptSerif.style.fontFamily,
-    // },
-    // secondary: {
-    //   fontFamily: ptSerif.style.fontFamily,
-    // },
   },
 });
 
