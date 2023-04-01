@@ -2,6 +2,6 @@
   "extends": "next/core-web-vitals",
   "rules": {
     "keyword-spacing": "error",
-    "indent":"error"
+    "indent":["error", 2]
   }
 }
